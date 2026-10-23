@@ -9,6 +9,11 @@ requires-python = ">=3.13"
 dependencies = [
     "pandas",
     "numpy",
+    "ruff",
+    "mypy",
+    "pytest",
+    "black",
+    "hypothesis",
     "ipykernel"
 ]
 
