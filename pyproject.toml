@@ -16,6 +16,9 @@ dependencies = [
 [project.scripts]
 ai-trading-lab = "ai_trading_lab:main"
 
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
 [build-system]
 requires = ["uv_build>=0.13.4,<0.14.0"]
 build-backend = "uv_build"
@@ -26,6 +29,7 @@ dev = [
     "hypothesis>=6.170.8",
     "mypy>=2.4.0",
     "pre-commit>=4.7.0",
+    "pylint>=3.0.0",
     "pytest>=9.1.1",
     "ruff>=0.17.2",
 ]
