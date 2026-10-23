@@ -6,7 +6,11 @@ authors = [
     { name = "Harkarun Nazran", email = "harkarunsnazran@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pandas",
+    "numpy",
+    "ipykernel"
+]
 
 [project.scripts]
 ai-trading-lab = "ai_trading_lab:main"
