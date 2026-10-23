@@ -1,0 +1,16 @@
+[project]
+name = "ai-trading-lab"
+version = "0.0.1"
+readme = "README.md"
+authors = [
+    { name = "Harkarun Nazran", email = "harkarunsnazran@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+ai-trading-lab = "ai_trading_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
